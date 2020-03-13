@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Catalog\" />
+    <Folder Include="Common\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KHKDSolution.Data\KHKDSolution.Data.csproj" />
+    <ProjectReference Include="..\KHKDSolution.Utilities\KHKDSolution.Utilities.csproj" />
+    <ProjectReference Include="..\KHKDSolution.ViewModels\KHKDSolution.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>
